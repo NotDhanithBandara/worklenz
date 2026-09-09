@@ -115,5 +115,6 @@ projectsApiRouter.get(
 
 projectsApiRouter.use("/:projectId/files", projectFilesApiRouter);
 projectsApiRouter.use("/:projectId/links", projectLinksApiRouter);
+projectsApiRouter.use("/:projectId/docs", projectDocsApiRouter);
 
 export default projectsApiRouter;
