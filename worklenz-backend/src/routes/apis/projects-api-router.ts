@@ -11,6 +11,7 @@ import projectMemberValidator from "../../middlewares/validators/project-member-
 import verifyProjectAccess from "../../middlewares/verify-project-access";
 import projectFilesApiRouter from "./project-files-api-router";
 import projectLinksApiRouter from "./project-links-api-router";
+import projectDocsApiRouter from "./project-docs-api-router";
 
 const projectsApiRouter = express.Router();
 
